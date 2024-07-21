@@ -1,0 +1,227 @@
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/0f162fd3-1c90-418b-a47e-6754bec8cc9b/NG-en-20191230-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  background-position: top;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+#container::before {
+  content: "";
+  position: absolute;
+  height: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+body * {
+  position: relative;
+}
+
+#container2 {
+  height: 20vw;
+  width: 86vw;
+  background: #000000;
+  margin-top: 0.5vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+#container3 {
+  width: 100vw;
+  background: #000000;
+  margin-top: 8px;
+}
+
+.faq-section {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-section h2 {
+  margin-bottom: 5px;
+}
+
+.faq-item {
+  margin-top: -10px;
+  /* padding: 10px; */
+}
+
+.faq-item button {
+  padding: 25px; 
+  width: 75vw;
+  background-color: #2D2D2D;
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  color: #fff;
+  text-align: left;
+  width: 100%;
+}
+
+.plus-icon {
+  float: right;
+}
+
+
+#col2{
+  width: 30vw;
+}
+
+section {
+  max-width: 55%;
+  margin: 0 auto;
+  margin-top: 100px;
+ 
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  margin: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #e50914;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2.6em;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.625rem;
+}
+
+.netflex-icon {
+  list-style: none;
+  font-size: 3.5rem;
+  font-weight: 300;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+  height: 2rem;
+  width: 1rem;
+}
+
+select {
+    width: 120px;
+    height: 40px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: #1B1B1B;
+    font-weight: 500;
+    font-size: larger;
+    border-radius: 0.25rem;
+}
+
+#language {
+    margin-left: 38vw;
+    
+}
+
+#sign-in {
+  background-color: #e50914;
+  padding: 0.6rem 1.5rem;
+  list-style: none;
+  border-radius: 0.25rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+#sign-in  a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  color: white;
+  background-color: #e50914;
+  border-radius: 0.325rem;
+  border: solid 0.25rem #e50914;
+  padding: 0.8125rem 3.25rem;
+  font-size: 1.30rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+input {
+    color: white;
+    background-color: #1B1B1B;
+    border: solid 0.05rem white;
+    border-radius: 0.325rem;
+    padding: 0.8125rem 3.25rem;
+    font-size: 1.625rem;
+    margin-top: 20px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  margin-top: 5px;
+  padding-bottom: 70px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#row {
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+@media  screen {
+  
+}
+
+
+
+
+
+/* Add additional styles for other elements */
